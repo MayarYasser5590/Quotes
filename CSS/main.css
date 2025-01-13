@@ -1,0 +1,37 @@
+section{
+    height: 100vh;
+}
+.container{
+    box-shadow: 3px 3px 15px 3px rgb(167, 133, 139);
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(146, 85, 95);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(78, 48, 53);
+}
+.btn-1 {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgb(146, 85, 95);
+    --bs-btn-border-color: rgb(146, 85, 95);
+    --bs-btn-hover-color: rgb(146, 85, 95);
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-border-color: rgb(146, 85, 95);
+    transition: all 0.5s;
+  }
+  .button  {
+    --bs-btn-padding-x: 3.75rem;
+    --bs-btn-padding-y: .9375rem;
+    --bs-btn-font-size: 0.8125rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.1607rem;
+     margin-top: 1.25rem;
+  }
+  #quote{
+    color:rgb(65, 34, 39);
+  }
+  #author{
+    color: rgb(172, 124, 132);
+  }
